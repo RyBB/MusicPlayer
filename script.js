@@ -1,3 +1,11 @@
+$(function() {
+  $(document).snowfall({
+    maxSize  : 10,    // 雪の最大サイズ
+    maxSpeed : 3,    // 雪の最高速度
+    round    : true, // 雪の形を丸くする
+  });
+});
+
 var array = [
   {
     title: 'White snow',
